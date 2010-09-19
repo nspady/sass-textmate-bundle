@@ -3,12 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>content: "${1:.}"
-:display block
-:clear both
-:visibility hidden
-:line-height 0
-:height 0</string>
+	<string>
+		content: "${1:.}"
+		display: block
+		clear: both
+		visibility: hidden
+		line-height: 0
+		height: 0
+	</string>
 	<key>name</key>
 	<string>clearfix</string>
 	<key>scope</key>

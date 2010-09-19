@@ -3,21 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>=clearfix
-  &amp;:after
-    content: "${1:.}"
-    display: block
-    clear: both
-    visibility: hidden
-    line-height: 0
-    height: 0</string>
+	<string>-webkit-box-shadow= ${1:0} ${2:0} ${3:5px} ${4:#000}
+-moz-box-shadow= $1 $2 $3 $4
+-box-shadow= $1 $2 $3 $4</string>
 	<key>name</key>
-	<string>=clearfix</string>
+	<string>box-shadow</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
-	<string>cf</string>
+	<string>bs</string>
 	<key>uuid</key>
-	<string>73579241-FB2F-45A7-BF95-48384EDADAA8</string>
+	<string>650F6FA1-F849-4CB0-BA0B-BCB05D0ACD07</string>
 </dict>
 </plist>
